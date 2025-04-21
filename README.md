@@ -15,7 +15,6 @@ Instead of forgetting to redact PII in a report, just don’t.
 - Highlight or redact sensitive info   
 - Annotate with customizable markers  
 - Export like a boss  
-- Works well with your broken sleep schedule
 
 
 I make things that I need, and this time, AutoRedact came out of necessity and too many Ctrl+Z moments.
