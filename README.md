@@ -1,4 +1,3 @@
-## Hi there 👋
 
 ## AutoRedact — A Screenshot Tool for Security Researchers
 
