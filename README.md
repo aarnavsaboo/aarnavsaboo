@@ -24,3 +24,6 @@ I make things that I need, and this time, AutoRedact came out of necessity and t
 
 👉 [Install AutoRedact on Chrome](https://chromewebstore.google.com/detail/autoredact/pnjfdkbhcnabpiikhpamffpnlhomiepo)
 
+my X is 👉 [aarnavssaboo](https://x.com/aarnavssaboo)
+
+
