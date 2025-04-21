@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-# AutoRedact — A Screenshot Tool for Security Researchers
+## AutoRedact — A Screenshot Tool for Security Researchers
 
 🔗 [Available on Chrome Web Store](https://chromewebstore.google.com/detail/autoredact/pnjfdkbhcnabpiikhpamffpnlhomiepo)
 
