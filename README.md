@@ -3,7 +3,7 @@
 
 🔗 [Available on Chrome Web Store](https://chromewebstore.google.com/detail/autoredact/pnjfdkbhcnabpiikhpamffpnlhomiepo)
 
-AutoRedact is a handy little Chrome extension I built to make my life slightly less painful. It's designed for security researchers (like me) who are tired of juggling Snipping Tool, redaction boxes, and image editors just to submit a clean and safe report.
+AutoRedact is a handy little Chrome extension I built to make my life slightly less painful. It's designed for people like me who are tired of juggling Snipping Tool, redaction boxes, and image editors just to submit a clean and safe report.
 
 Instead of 10 clicks, try 2.  
 Instead of forgetting to redact PII in a report, just don’t.  
