@@ -1,27 +1,21 @@
+# Aarnav Saboo
 
-## AutoRedact — A Screenshot Tool 
+### LLMs · Retrieval-Augmented Generation · AI Integrations
 
-🔗 [Available on Chrome Web Store](https://chromewebstore.google.com/detail/autoredact/pnjfdkbhcnabpiikhpamffpnlhomiepo)
+I build and experiment with the systems around language models: how they connect to data, how context gets retrieved, and how their outputs become usable.
 
-AutoRedact is a handy little Chrome extension I built to make my life slightly less painful. It's designed for people like me who are tired of juggling Snipping Tool, redaction boxes, and image editors just to submit a clean and safe report.
+My interests sit between applied NLP and practical engineering—document processing, retrieval pipelines, model integrations, structured extraction, and evaluation.
 
-Instead of 10 clicks, try 2.  
-Instead of forgetting to redact PII in a report, just don’t.  
+## Projects
 
-###  What it does
+- **[AI Provider Router](https://github.com/aarnavsaboo/ai-provider-router)** — model routing and provider integrations in TypeScript.
+- **[RAG Chunk Kit](https://github.com/aarnavsaboo/rag-chunk-kit)** — document preparation and retrieval experiments in Python.
+- **[LLM JSON Guard](https://github.com/aarnavsaboo/llm-json-guard)** — parsing and validating structured model outputs.
 
-- Take screenshots instantly  
-- Highlight or redact sensitive info   
-- Annotate with customizable markers  
-- Export like a boss  
+## What I care about
 
+Good retrieval before longer prompts. Explicit evaluation instead of a convincing demo. Small, inspectable components rather than a framework for everything.
 
-I make things that I need, and this time, AutoRedact came out of necessity and too many Ctrl+Z moments.
+Most of the work here uses **Python** and **TypeScript**. These are evolving open-source projects, with examples and trade-offs documented alongside the code.
 
-### Try It Now
-
-👉 [Install AutoRedact on Chrome](https://chromewebstore.google.com/detail/autoredact/pnjfdkbhcnabpiikhpamffpnlhomiepo)
-
-my X is 👉 [aarnavssaboo](https://x.com/aarnavssaboo)
-
-
+[Portfolio and project notes →](https://aarnavsaboo.github.io/)
