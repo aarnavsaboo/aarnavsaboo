@@ -1,35 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" fill="none" role="img" aria-labelledby="title desc">
-  <title id="title">Aarnav Saboo — LLMs, retrieval and applied NLP</title>
-  <desc id="desc">An understated dark banner with a document-to-model-to-structured-output motif.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Aarnav Saboo</title>
+  <desc id="desc">A simple dark profile banner.</desc>
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="260" gradientUnits="userSpaceOnUse">
       <stop stop-color="#101923"/>
       <stop offset="1" stop-color="#142A2B"/>
     </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r="1" fill="#83B9AE" opacity="0.14"/>
-    </pattern>
   </defs>
-  <rect width="1200" height="300" rx="18" fill="url(#background)"/>
-  <rect x="780" width="420" height="300" rx="18" fill="url(#grid)"/>
-  <rect x="48" y="54" width="28" height="3" rx="1.5" fill="#9EDDC4"/>
-  <text x="88" y="60" fill="#9EDDC4" font-family="ui-monospace, monospace" font-size="13" letter-spacing="2">APPLIED AI / OPEN SOURCE</text>
-  <text x="48" y="139" fill="#F1F5F6" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="61" font-weight="700" letter-spacing="-2.2">Aarnav Saboo</text>
-  <text x="50" y="185" fill="#C1D0D4" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="21">Language models. Better context. Useful outputs.</text>
-  <text x="50" y="248" fill="#9EB4BA" font-family="ui-monospace, monospace" font-size="13" letter-spacing="1.2">LLM INTEGRATIONS / RAG / APPLIED NLP</text>
-  <path d="M876 151H927M999 151H1050" stroke="#7DBDAA" stroke-width="2"/>
-  <path d="M920 146L927 151L920 156M1043 146L1050 151L1043 156" stroke="#7DBDAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="809" y="116" width="64" height="70" rx="9" stroke="#41625F" fill="#15292D"/>
-  <rect x="802" y="109" width="64" height="70" rx="9" stroke="#9EDDC4" stroke-width="1.5" fill="#15292D"/>
-  <path d="M819 130H849M819 143H844M819 156H838" stroke="#C1D0D4" stroke-width="2" stroke-linecap="round"/>
-  <rect x="927" y="115" width="72" height="72" rx="16" stroke="#9EDDC4" stroke-width="1.5" fill="#15292D"/>
-  <path d="M947 137L979 151L947 165V137Z" stroke="#C1D0D4" stroke-width="1.5" stroke-linejoin="round"/>
-  <circle cx="947" cy="137" r="4" fill="#9EDDC4"/>
-  <circle cx="979" cy="151" r="4" fill="#9EDDC4"/>
-  <circle cx="947" cy="165" r="4" fill="#9EDDC4"/>
-  <rect x="1050" y="115" width="72" height="72" rx="12" stroke="#9EDDC4" stroke-width="1.5" fill="#15292D"/>
-  <path d="M1076 134H1072V146L1067 151L1072 156V168H1076M1096 134H1100V146L1105 151L1100 156V168H1096" stroke="#C1D0D4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="835" y="216" text-anchor="middle" fill="#9EB4BA" font-family="ui-monospace, monospace" font-size="12">context</text>
-  <text x="963" y="216" text-anchor="middle" fill="#9EB4BA" font-family="ui-monospace, monospace" font-size="12">inference</text>
-  <text x="1086" y="216" text-anchor="middle" fill="#9EB4BA" font-family="ui-monospace, monospace" font-size="12">output</text>
+  <rect width="1200" height="260" rx="18" fill="url(#background)"/>
+  <text x="56" y="118" fill="#F1F5F6" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="58" font-weight="700" letter-spacing="-2">Aarnav Saboo</text>
+  <text x="58" y="165" fill="#B8C7CA" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="20">Python · TypeScript · LLM systems</text>
 </svg>
