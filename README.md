@@ -4,25 +4,38 @@
 
 ## Aarnav Saboo
 
-Independent **Applied AI / LLM engineer** working on the systems around language models: retrieval, inference routing, structured generation, and evaluation.
+**Applied AI / LLM engineer** working mostly on local model inference, retrieval systems, RAG pipelines, and tooling for repeatable model workflows.
 
-Most of my work is in Python and TypeScript, with an emphasis on small, inspectable components rather than opaque end-to-end demos.
+Most of my projects are small experiment systems rather than end-to-end product demos: define a workload, run it against local models, keep the raw measurements, and compare what actually changed.
 
 ### Current work
 
-- **Retrieval systems** — source-preserving chunking, BM25 and dense retrieval, reciprocal-rank fusion, context assembly, and Recall@k / MRR / nDCG evaluation
-- **LLM infrastructure** — provider abstractions, task routing, retries, timeouts, explicit fallbacks, circuit breaking, bounded concurrency, and execution metadata
-- **Structured generation** — JSON Schema validation, task-specific post-validation, bounded regeneration, async workflows, and batch evaluation
-- **Model integrations** — OpenAI-compatible endpoints, local model runtimes, normalized responses, and provider-independent application code
+- **Local inference** — MLX, GGUF / llama.cpp, Ollama, OpenAI-compatible local runtimes, quantized models, warm/cold behaviour, memory and throughput
+- **RAG & retrieval** — BM25, embeddings, hybrid retrieval, rank fusion, reranking, chunking experiments, query expansion and retrieval evaluation
+- **Model evaluation** — small-model task packs, paired comparisons, long-context experiments, embedding benchmarks and ablation runs
+- **Workflow tooling** — experiment manifests, model matrices, batch runners, run artifacts, local routing, SQLite-backed experiment telemetry and reproducible reports
 
-### Projects
+### Selected projects
 
-- **[rag-chunk-kit](https://github.com/aarnavsaboo/rag-chunk-kit)** — an inspectable document-to-context pipeline with hybrid retrieval, rank fusion, source-linked context, and labelled retrieval evaluation
-- **[ai-provider-router](https://github.com/aarnavsaboo/ai-provider-router)** — a provider-agnostic inference layer with routing, retries, fallbacks, cancellation, circuit handling, and concurrency controls
-- **[llm-json-guard](https://github.com/aarnavsaboo/llm-json-guard)** — schema-driven validation and feedback loops for reliable structured LLM outputs
+| Project | What I'm experimenting with |
+| :--- | :--- |
+| `local-llm-bench` | Repeatable local inference workloads: TTFT, prompt processing, decode throughput, concurrency and raw run artifacts |
+| `rag-rerank-pipeline` | Multi-stage retrieval: lexical + dense search, fusion, reranking, evidence packing and local generation |
+| `mlx-model-lab` | Apple Silicon / MLX model sweeps, warm vs cold runs, prompt length, generation length and process measurements |
+| `gguf-model-bench` | GGUF metadata inspection and llama.cpp prompt-processing / generation benchmark matrices |
+| `small-model-evals` | Application-shaped local model task packs with quality, latency and paired model comparisons |
+| `rag-ablation-lab` | RAG component ablations with per-query wins, regressions and bootstrap deltas |
+| `embedding-bench` | Local embedding model quality, throughput, vector dimensions and paired retrieval comparisons |
+| `local-model-router` | Queue-aware routing across a pool of local models with memory, capacity and task constraints |
+| `long-context-lab` | Prompt-length × evidence-position experiments with full, retrieval and compression strategies |
+| `model-memory-profiler` | Process/system memory timelines for local model workloads |
+| `local-inference-observatory` | Local run collection into SQLite with model/runtime/workload summaries |
+| `synthetic-rag-data` | Local-model generation of labelled retrieval datasets for RAG experiments |
 
 ### Stack
 
-Python · TypeScript · Node.js · JSON Schema · Sentence Transformers · OpenAI-compatible APIs · Ollama
+Python · TypeScript · Node.js · MLX · llama.cpp · Ollama · Sentence Transformers · SQLite
 
-[Portfolio](https://aarnavsaboo.github.io/)
+---
+
+I like keeping experiments inspectable: raw runs before summaries, simple baselines beside complicated pipelines, and failed ideas in the results when they lose.
