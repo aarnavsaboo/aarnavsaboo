@@ -1,39 +1,46 @@
 <p align="center">
-  <img src="./assets/profile-header.svg" alt="Aarnav Saboo — language models, retrieval and applied NLP" width="100%">
+  <img src="./assets/profile-header.svg" alt="Aarnav Saboo — LLMs, retrieval and applied NLP" width="100%">
 </p>
 
 <p align="center">
-  <a href="#selected-projects">Projects</a> &nbsp;·&nbsp;
-  <a href="#how-i-work">How I work</a> &nbsp;·&nbsp;
-  <a href="https://aarnavsaboo.github.io/">Portfolio ↗</a>
+  <strong>LLMs · RAG · Retrieval · Structured Outputs · Model Integrations</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/aarnavsaboo/rag-chunk-kit">RAG Chunk Kit</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/aarnavsaboo/ai-provider-router">AI Provider Router</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/aarnavsaboo/llm-json-guard">LLM JSON Guard</a>
 </p>
 
 ## Hi, I'm Aarnav.
 
-I build and experiment with **LLM integrations, retrieval-augmented generation and structured NLP workflows**. I'm interested in the steps between a document and a useful result: preparing the text, retrieving context, connecting a model and checking its output.
+I build practical systems around **large language models**, with a focus on **retrieval-augmented generation, model integrations, structured outputs and evaluation**.
 
-Most of the code here is **Python** and **TypeScript**. I like being able to follow a result back through the pipeline and understand why it happened.
+Most of my work is in **Python** and **TypeScript**. I like taking LLM workflows beyond a basic prompt: improving how context is retrieved, how providers are routed, how outputs are validated, and how the whole pipeline can be tested.
 
-## Selected projects
+## What I'm working on
 
-| Project | What it does |
-| :--- | :--- |
-| **[RAG Chunk Kit](https://github.com/aarnavsaboo/rag-chunk-kit)**<br>Python · Information retrieval | Document ingestion, overlapping chunks, BM25 and optional dense retrieval. Includes source-linked context assembly and retrieval evaluation. |
-| **[AI Provider Router](https://github.com/aarnavsaboo/ai-provider-router)**<br>TypeScript · Model integrations | A shared interface for OpenAI-compatible endpoints and Ollama. Task routing, explicit fallbacks, retries, cancellation and bounded batch execution. |
-| **[LLM JSON Guard](https://github.com/aarnavsaboo/llm-json-guard)**<br>Python · Structured extraction | JSON Schema validation, entity-span checks and bounded regeneration with feedback. Includes an async interface and batch-output evaluation. |
+- **RAG & retrieval** — chunking, BM25, dense retrieval, context assembly and evaluation
+- **LLM infrastructure** — provider adapters, routing, retries, fallbacks and bounded concurrency
+- **Structured generation** — schema validation, extraction checks and regeneration with feedback
+- **Evaluation & traceability** — keeping model inputs, retrieved context and outputs inspectable
 
-These are evolving open-source projects. Each includes runnable offline examples, tests and notes on the implementation's trade-offs.
+## Projects
 
-## How I work
+| Project | Focus | Stack |
+| :--- | :--- | :--- |
+| **[RAG Chunk Kit](https://github.com/aarnavsaboo/rag-chunk-kit)** | Document ingestion, overlapping chunks, BM25 + optional dense retrieval, source-linked context and retrieval evaluation | Python |
+| **[AI Provider Router](https://github.com/aarnavsaboo/ai-provider-router)** | Shared interface for multiple LLM providers with routing, fallbacks, retries and cancellation | TypeScript |
+| **[LLM JSON Guard](https://github.com/aarnavsaboo/llm-json-guard)** | JSON Schema validation, entity-span checks and bounded regeneration for structured LLM outputs | Python |
 
-**Keep context traceable.** Preserve the source and offsets, not just the retrieved text.
+## Current interests
 
-**Make behaviour explicit.** Document what gets retried, where a request goes and what a validation result actually establishes.
-
-**Start with something testable.** Small fixtures and clear failure cases before bigger abstractions.
+**LLM applications · RAG systems · retrieval quality · structured outputs · model routing · evals · applied NLP**
 
 <details>
-<summary><strong>A closer look at the implementations</strong></summary>
+<summary><strong>Implementation notes</strong></summary>
 
 - [Retrieval, chunk boundaries and evaluation](https://github.com/aarnavsaboo/rag-chunk-kit/blob/main/docs/design.md)
 - [Provider adapters, fallback routes and circuit handling](https://github.com/aarnavsaboo/ai-provider-router/blob/main/docs/design.md)
@@ -43,4 +50,6 @@ These are evolving open-source projects. Each includes runnable offline examples
 
 ---
 
-[More about me and the projects →](https://aarnavsaboo.github.io/)
+<p align="center">
+  <a href="https://aarnavsaboo.github.io/">Portfolio</a>
+</p>
